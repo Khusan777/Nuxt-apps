@@ -41,6 +41,7 @@ const handleClick = () => {
 }
 
 input {
+  border: 1px solid black;
   outline: none;
 }
 

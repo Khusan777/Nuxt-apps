@@ -50,7 +50,7 @@ const { data: city, error } = useAsyncData(
   }
 );
 
-let today = new Date();
+let today: Date | string = new Date();
 
 today = today.toLocaleDateString("en-US", {
   weekday: "long",
